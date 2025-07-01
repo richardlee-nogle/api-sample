@@ -37,7 +37,7 @@ def get_spot_api_version():
 
 def get_futures_api_version():
     """Get futures api version"""
-    return "v2.1"
+    return "v2.2"
 
 
 def get_otc_api_version():

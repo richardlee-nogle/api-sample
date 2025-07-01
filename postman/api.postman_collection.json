@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "2044974c-4144-4928-89fd-24838c4a2d05",
 		"name": "api",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.2.0/collection.json",
 		"_exporter_id": "23057301"
 	},
 	"item": [
@@ -597,14 +597,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/market_summary",
+							"raw": "{{api-url}}/futures/api/v2.2/market_summary",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"market_summary"
 							],
 							"query": [
@@ -624,14 +624,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/ohlcv?symbol=BTCPFC&resolution=15",
+							"raw": "{{api-url}}/futures/api/v2.2/ohlcv?symbol=BTCPFC&resolution=15",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"ohlcv"
 							],
 							"query": [
@@ -656,14 +656,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/price",
+							"raw": "{{api-url}}/futures/api/v2.2/price",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"price"
 							]
 						}
@@ -676,14 +676,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/orderbook?symbol=BTCPFC",
+							"raw": "{{api-url}}/futures/api/v2.2/orderbook?symbol=BTCPFC",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"orderbook"
 							],
 							"query": [
@@ -702,14 +702,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/orderbook/L2?symbol=BTCPFC&depth=5",
+							"raw": "{{api-url}}/futures/api/v2.2/orderbook/L2?symbol=BTCPFC&depth=5",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"orderbook",
 								"L2"
 							],
@@ -733,14 +733,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/trades?symbol=BTCPFC&count=10",
+							"raw": "{{api-url}}/futures/api/v2.2/trades?symbol=BTCPFC&count=10",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"trades"
 							],
 							"query": [
@@ -804,14 +804,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/order",
+							"raw": "{{api-url}}/futures/api/v2.2/order",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"order"
 							]
 						}
@@ -854,14 +854,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/order/peg",
+							"raw": "{{api-url}}/futures/api/v2.2/order/peg",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"order",
 								"peg"
 							]
@@ -905,14 +905,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/order",
+							"raw": "{{api-url}}/futures/api/v2.2/order",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"order"
 							]
 						}
@@ -946,14 +946,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/order?symbol=BTCPFC",
+							"raw": "{{api-url}}/futures/api/v2.2/order?symbol=BTCPFC",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"order"
 							],
 							"query": [
@@ -1002,14 +1002,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/order/cancelAllAfter",
+							"raw": "{{api-url}}/futures/api/v2.2/order/cancelAllAfter",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"order",
 								"cancelAllAfter"
 							]
@@ -1044,14 +1044,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/user/open_orders?symbol=BTCPFC",
+							"raw": "{{api-url}}/futures/api/v2.2/user/open_orders?symbol=BTCPFC",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"user",
 								"open_orders"
 							],
@@ -1092,14 +1092,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/user/trade_history?symbol=BTCPFC",
+							"raw": "{{api-url}}/futures/api/v2.2/user/trade_history?symbol=BTCPFC",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"user",
 								"trade_history"
 							],
@@ -1140,14 +1140,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/user/positions?symbol=BTCPFC",
+							"raw": "{{api-url}}/futures/api/v2.2/user/positions?symbol=BTCPFC",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"user",
 								"positions"
 							],
@@ -1197,14 +1197,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/order/close_position",
+							"raw": "{{api-url}}/futures/api/v2.2/order/close_position",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"order",
 								"close_position"
 							]
@@ -1248,14 +1248,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/risk_limit",
+							"raw": "{{api-url}}/futures/api/v2.2/risk_limit",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"risk_limit"
 							]
 						}
@@ -1298,14 +1298,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/leverage",
+							"raw": "{{api-url}}/futures/api/v2.2/leverage",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"leverage"
 							]
 						}
@@ -1348,14 +1348,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/settle_in",
+							"raw": "{{api-url}}/futures/api/v2.2/settle_in",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"settle_in"
 							]
 						}
@@ -1389,14 +1389,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/user/fees",
+							"raw": "{{api-url}}/futures/api/v2.2/user/fees",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"user",
 								"fees"
 							]
@@ -1431,14 +1431,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/user/wallet",
+							"raw": "{{api-url}}/futures/api/v2.2/user/wallet",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"user",
 								"wallet"
 							]
@@ -1473,14 +1473,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/user/wallet_history",
+							"raw": "{{api-url}}/futures/api/v2.2/user/wallet_history",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"user",
 								"wallet_history"
 							]
@@ -1515,14 +1515,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/user/margin?symbol=BTCPFC",
+							"raw": "{{api-url}}/futures/api/v2.2/user/margin?symbol=BTCPFC",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"user",
 								"margin"
 							],
@@ -1575,14 +1575,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{api-url}}/futures/api/v2.1/wallet/transfer",
+							"raw": "{{api-url}}/futures/api/v2.2/wallet/transfer",
 							"host": [
 								"{{api-url}}"
 							],
 							"path": [
 								"futures",
 								"api",
-								"v2.1",
+								"v2.2",
 								"wallet",
 								"transfer"
 							]
