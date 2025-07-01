@@ -15,7 +15,7 @@ const getOhlcv = async (params) => {
 };
 
 getOhlcv({
-  symbol: 'BTCPFC',
+  symbol: 'BTC-PERP',
   resolution: 15,
 })
   .then(console.log)

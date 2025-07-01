@@ -38,7 +38,7 @@ if __name__ == "__main__":
     print(
         futures_amend_order(
             {
-                "symbol": "ETHPFC",
+                "symbol": "ETH-PERP",
                 "orderID": "<your-order-id>",
                 "type": "ALL",
                 "orderPrice": 2501,

@@ -20,7 +20,7 @@ const cancelOrder = async ({ symbol, orderID, clOrderID }) => {
 };
 
 cancelOrder({
-  symbol: 'BTCPFC',
+  symbol: 'BTC-PERP',
   clOrderID: 'test-order-placement',
 })
   .then(console.log)

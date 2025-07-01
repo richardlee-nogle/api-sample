@@ -27,7 +27,7 @@ if __name__ == "__main__":
     print(
         futures_get_orderbook_L2(
             {
-                "symbol": "BTCPFC",
+                "symbol": "BTC-PERP",
                 "depth": 10,
             }
         )

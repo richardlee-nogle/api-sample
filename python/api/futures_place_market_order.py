@@ -41,7 +41,7 @@ if __name__ == "__main__":
                 "clOrderID": "test-order-placement",
                 "size": 0.0005,
                 "side": "BUY",
-                "symbol": "BTCPFC",
+                "symbol": "BTC-PERP",
                 "txType": "LIMIT",
                 "type": "MARKET",
             }

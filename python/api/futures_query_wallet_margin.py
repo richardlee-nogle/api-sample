@@ -32,5 +32,5 @@ def funct(params):
 
 
 if __name__ == "__main__":
-    data = {"symbol": "BTCPFC"}
+    data = {"symbol": "BTC-PERP"}
     print(funct(data))

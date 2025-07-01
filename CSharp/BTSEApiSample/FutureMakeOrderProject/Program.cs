@@ -6,7 +6,7 @@ using FutureMakeOrderProject;
 var futuresOrderService = new FuturesMakeOrder();
 var futurePlaceOrderResponseEntities = await futuresOrderService.PlaceOrderAsync(new FutureMakeOrderRequestEntity()
 {
-    Symbol = "BTCPFC",
+    Symbol = "BTC-PERP",
     Price = 21000,
     Size = 1,
     Side = "BUY",
